@@ -1,0 +1,75 @@
+body{ 
+  color: rgb(15, 15, 15); 
+  background: #e9e2e2; 
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+span{ 
+  display: block; 
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+.outline{ 
+  width: 110px; 
+  border: 0px solid black;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #FFF 
+}
+
+.top{ 
+  text-align: left;
+}
+
+.bottom{ 
+  text-align: right;
+ }
+ 
+.shadow{ 
+  box-shadow: 1px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+}
+
+.rounded{ 
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+}
+
+.cards{
+  display: inline-block;
+  width: 110px; 
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #FFF 
+}
+
+.black{
+  color: black;
+  border: 0px solid black;
+}
+
+.red{
+  color: red;
+  border: 0px solid red;
+}
+
+#message {
+  color: red;
+}
